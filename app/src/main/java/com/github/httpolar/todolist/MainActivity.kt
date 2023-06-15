@@ -75,7 +75,7 @@ class TodoListViewModel : ViewModel() {
 
 @Preview
 @Composable
-fun TodoListScreen(viewModel: TodoListViewModel = viewModel()) {
+fun TodoListScreen() {
     TodoListTheme {
         Surface(
             color = MaterialTheme.colorScheme.background,
